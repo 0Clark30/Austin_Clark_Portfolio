@@ -5,6 +5,8 @@ Austin Clark's Portfolio: Developer
 Austin Clark's Portfolio is a submission attempt in response to a challenge associated with advanced CSS.
 
 
+
+
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
