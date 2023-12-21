@@ -1,0 +1,124 @@
+*{
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: darkslategrey;
+    color:white;
+    border-bottom: solid black;
+
+}
+
+
+
+header{
+    display: flex;
+  line-height: 150%;
+  color: black;
+  font-size: 50px;  
+  flex-direction: column;
+}
+
+header p {
+    font-size: 35px;
+    line-height: 0%;
+    padding: 0 20px 20px 0;
+
+}
+header h1{
+    font-style: bold;
+text-decoration: underline;
+}
+
+#profile{
+    width:100px
+}
+
+body{ 
+    background-color: darkolivegreen;
+     /* background-image: url(/images/wp7453603-3606507301.jpg); */
+}
+
+nav{
+    display:flex;
+    justify-content:end;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+}
+#mybio{
+    background: white;
+}
+#mybio h2, p{
+    font-size: 25px;
+    text-align: center
+    ;
+
+}
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: end;
+}
+.card{
+    flex: 1 0 0;
+
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+}
+
+.card img {
+    width: 50%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+#bestcard img{
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+section{
+    display: block;
+}
+
+
+
+@media screen and (max-width: 992px){
+.card {
+    width: 50%
+}
+}
+
+@media screen and (max-width: 768px){
+    .card {
+        width: 100%;
+    }
+    nav a{
+        font-size: 16px;
+    }
+    .card {
+        width: 100%;
+    }
+
+}
